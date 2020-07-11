@@ -1,589 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <!-- TITLE -->
-    <title>Gallery</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Gallery | Luxen Premium Hotel Template</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="img/favicon.ico" />
+<!-- CSS FILES -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/2035.responsive.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="shortcut icon" href="images/favicon.png"/>
-
-    <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Hind:400,300,500,600%7cMontserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- CSS LIBRARY -->
-    <link rel="stylesheet" type="text/css" href="css/lib/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/font-lotusicon.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/jquery-ui.min.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/settings.css">
-    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap-select.min.css">
-
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
+<script src="js/vendor/modernizr-2.8.3-respond-1.1.0.min.js"></script>
+<!-- Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
 </head>
-
-<!--[if IE 7]> <body class="ie7 lt-ie8 lt-ie9 lt-ie10"> <![endif]-->
-<!--[if IE 8]> <body class="ie8 lt-ie9 lt-ie10"> <![endif]-->
-<!--[if IE 9]> <body class="ie9 lt-ie10"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
-
-
-    <!-- PRELOADER -->
-    <div id="preloader">
-        <span class="preloader-dot"></span>
-    </div>
-    <!-- END / PRELOADER -->
-
-    <!-- PAGE WRAP -->
-    <div id="page-wrap">
-
-        <!-- HEADER -->
-        <header id="header">
-            
-            <!-- HEADER TOP -->
-            <div class="header_top">
-                <div class="container">
-                    <div class="header_left float-left">
-                        <span><i class="lotus-icon-cloud"></i> 18 °C</span>
-                        <span><i class="lotus-icon-location"></i> 225 Beach Street, Australian</span>
-                        <span><i class="lotus-icon-phone"></i> 1-548-854-8898</span>
-                    </div>
-                    <div class="header_right float-right">
-
-                        <span class="login-register">
-                            <a href="login.html">Login</a>
-                            <a href="register.html">register</a>
-                        </span>
-
-                        <div class="dropdown currency">
-                            <span>USD <i class="fa fa"></i></span>
-                            <ul>
-                                <li class="active"><a href="#">USD</a></li>
-                                <li><a href="#">EUR</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="dropdown language">
-                            <span>ENG</span>
-
-                            <ul>
-                                <li class="active"><a href="#">ENG</a></li>
-                                <li><a href="#">FR</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- END / HEADER TOP -->
-            
-            <!-- HEADER LOGO & MENU -->
-            <div class="header_content" id="header_content">
-
-                <div class="container">
-                    <!-- HEADER LOGO -->
-                    <div class="header_logo">
-                        <a href="#"><img src="images/logo-header.png" alt=""></a>
-                    </div>
-                    <!-- END / HEADER LOGO -->
-                    
-                    <!-- HEADER MENU -->
-                    <nav class="header_menu">
-                        <ul class="menu">
-                            <li>
-                                <a href="index.html">Home <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="index.html">Home 1</a></li>
-                                    <li><a href="index-2.html">Home 2</a></li>
-                                    <li><a href="index-3.html">Home 3</a></li>
-                                    <li><a href="index-4.html">Home 4</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html">About</a></li>
-                            
-                            <li>
-                                <a href="#">Room <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="room-1.html">Room 1</a></li>
-                                    <li><a href="room-2.html">Room 2</a></li>
-                                    <li><a href="room-3.html">Room 3</a></li>
-                                    <li><a href="room-4.html">Room 4</a></li>
-                                    <li><a href="room-5.html">Room 5</a></li>
-                                    <li><a href="room-6.html">Room 6</a></li>
-                                    <li><a href="room-detail.html">Room Detail</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Restaurant <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="restaurants-1.html">Restaurant 1</a></li>
-                                    <li><a href="restaurants-2.html">Restaurant 2</a></li>
-                                    <li><a href="restaurants-3.html">Restaurant 3</a></li>
-                                    <li><a href="restaurants-4.html">Restaurant 4</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Reservation <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="reservation-step-1.html">Reservation Step 1</a></li>
-                                    <li><a href="reservation-step-2.html">Reservation Step 2</a></li>
-                                    <li><a href="reservation-step-3.html">Reservation Step 3</a></li>
-                                    <li><a href="reservation-step-4.html">Reservation Step 4</a></li>
-                                    <li><a href="reservation-step-5.html">Reservation Step 5</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Page <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="#">Guest Book <span class="fa fa-caret-right"></span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="guest-book.html">Guest Book 1</a></li>
-                                            <li class="current-menu-item"><a href="guest-book-2.html">Guest Book 2</a></li>
-                                        </ul>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="#">Event <span class="fa fa-caret-right"></span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="events.html">Events</a></li>
-                                            <li><a href="events-fullwidth.html">Events Fullwidth</a></li>
-                                            <li><a href="events-detail.html">Events Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="attractions.html">Attractions</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Term Condition <span class="fa fa-caret-right"></span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="term-condition.html">Term Condition 1</a></li>
-                                            <li><a href="term-condition-2.html">Term Condition 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="">Activiti <span class="fa fa-caret-down"></span></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="activiti.html">Activiti</a></li>
-                                            <li><a href="activiti-detail.html">Activiti Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="check-out.html">Check Out</a></li>
-                                    <li><a href="shortcode.html">ShortCode</a></li>
-                                    <li><a href="page-404.html">404 Page</a></li>
-                                    <li><a href="comingsoon.html">Comming Soon</a></li>
-                                </ul>
-                            </li>
-                            <li class="current-menu-item">
-                                <a href="#">Gallery <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li class="current-menu-item"><a href="gallery.html">Gallery Style 1</a></li>
-                                    <li><a href="gallery-2.html">Gallery Style 2</a></li>
-                                    <li><a href="gallery-3.html">Gallery Style 3</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">Blog <span class="fa fa-caret-down"></span></a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-detail.html">Blog Detail</a></li>
-                                    <li><a href="blog-detail-fullwidth.html">Blog Detail Fullwidth</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <!-- END / HEADER MENU -->
-
-                    <!-- MENU BAR -->
-                    <span class="menu-bars">
-                        <span></span>
-                    </span>
-                    <!-- END / MENU BAR -->
-
-                </div>
-            </div>
-            <!-- END / HEADER LOGO & MENU -->
-
-        </header>
-        <!-- END / HEADER -->
-
-        <!-- SUB BANNER -->
-        <section class="section-sub-banner bg-9">
-            <div class="awe-overlay"></div>
-            <div class="sub-banner">
-                <div class="container">
-                    <div class="text text-center">
-                        <h2>Gallery</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END / SUB BANNER -->
-        
-        <!-- GALLERY -->
-        <section class="section_page-gallery">
-            <div class="container">
-                <div class="gallery">
-
-                    <!-- FILTER -->
-                    <div class="gallery-cat text-center">
-                        <ul class="list-inline">
-                            <li class="active"><a href="#" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".ground">HOTEL &amp; GROUND</a></li>
-                            <li><a href="#" data-filter=".suite">ROOM/SUITE </a></li>
-                            <li><a href="#" data-filter=".bathroom">BATHROOM</a></li>
-                            <li><a href="#" data-filter=".dining">DINING</a></li>
-                        </ul>
-                    </div>
-                    <!-- END / FILTER -->
-
-                    <!-- GALLERY CONTENT -->
-                    <div class="gallery-content">
-                        <div class="row">
-                            <div class="gallery-isotope col-4">
-
-                                <!-- ITEM SIZE -->
-                                <div class="item-size "></div>
-                                <!-- END / ITEM SIZE -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope suite dining">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom suite">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom dining">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope suite dining ">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground suite dining">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope ground bathroom dining">
-                                    <div class="gallery_item">
-                                        <a href="https://www.youtube.com/watch?v=RnjZ6IhkR40" target="_blank" class="mfp-iframe" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <span class="icon"><i class="fa lotus-icon-media-play"></i></span>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope ground suite dining">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope bathroom suite dining">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope bathroom suite dining">
-                                    <div class="gallery_item">
-                                        <a href="https://www.youtube.com/watch?v=RnjZ6IhkR40" target="_blank" class="mfp-iframe" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <span class="icon"><i class="fa lotus-icon-media-play"></i></span>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope ground bathroom">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-iframe">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom suite ">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" target="_blank" class="mfp-image">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom">
-                                    <div class="gallery_item">
-                                        <a href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-2.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom">
-                                    <div class="gallery_item">
-                                        <a href="https://www.youtube.com/watch?v=RnjZ6IhkR40" target="_blank" class="mfp-iframe" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <span class="icon"><i class="fa lotus-icon-media-play"></i></span>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                                <!-- ITEM -->
-                                <div class="item-isotope  ground bathroom">
-                                    <div class="gallery_item">
-                                        <a  href="images/gallery/popup/img-1.jpg" class="mfp-image" title="Luxury Room view all">
-                                            <img src="images/gallery/page/img-1.jpg" alt="">
-                                        </a>
-                                        <h6 class="text">Lorem Ipsum is simply dummy text of the printing</h6>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <!-- GALLERY CONTENT -->
-
-                </div>
-            </div>       
-        </section>
-        <!-- END / GALLERY -->
-
-        <!-- FOOTER -->
-        <footer id="footer">
-
-            <!-- FOOTER TOP -->
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-
-                        <!-- WIDGET MAILCHIMP -->
-                        <div class="col-lg-9">
-                            <div class="mailchimp">
-                                <h4>News &amp; Offers</h4>
-                                <div class="mailchimp-form">
-                                    <form action="#" method="POST">
-                                        <input type="text" name="email" placeholder="Your email address" class="input-text">
-                                        <button class="awe-btn">SIGN UP</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END / WIDGET MAILCHIMP -->
-                        
-                        <!-- WIDGET SOCIAL -->
-                        <div class="col-lg-3">
-                            <div class="social">
-                                <div class="social-content">
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END / WIDGET SOCIAL -->
-
-                    </div>
-                </div>
-            </div>
-            <!-- END / FOOTER TOP -->
-
-            <!-- FOOTER CENTER -->
-            <div class="footer_center">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-xs-12 col-lg-5">
-                            <div class="widget widget_logo">
-                                <div class="widget-logo">
-                                    <div class="img">
-                                        <a href="#"><img src="images/logo-footer.png" alt=""></a>
-                                    </div>
-                                    <div class="text">
-                                        <p><i class="lotus-icon-location"></i> 225 Beach Street, Australian</p>
-                                        <p><i class="lotus-icon-phone"></i> 1-548-854-8898</p>
-                                        <p><i class="fa fa-envelope-o"></i> <a href="mailto:hello@thelotushotel.com">hello@thelotushotel.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-4 col-lg-2">
-                            <div class="widget">
-                                <h4 class="widget-title">Page site</h4>
-                                <ul>
-                                    <li><a href="#">Guest Book</a></li>
-                                    <li><a href="#">Gallery</a></li>
-                                    <li><a href="#">Restaurant</a></li>
-                                    <li><a href="#">Event</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-4 col-lg-2">
-                            <div class="widget">
-                                <h4 class="widget-title">ABOUT</h4>
-                                <ul>
-                                    <li><a href="">About</a></li>
-                                    <li><a href="">Blog</a></li>
-                                    <li><a href="">Contact Us</a></li>
-                                    <li><a href="">Comming Soon</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-4 col-lg-3">
-                            <div class="widget widget_tripadvisor">
-                                <h4 class="widget-title">Tripadvisor</h4>
-                                <div class="tripadvisor">
-                                    <p>Now with hotel reviews by</p>
-                                    <img src="images/tripadvisor.png" alt="">
-                                    <span class="tripadvisor-circle">
-                                        <i></i>
-                                        <i></i>
-                                        <i></i>
-                                        <i></i>
-                                        <i class="part"></i>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-            <!-- END / FOOTER CENTER -->
-
-            <!-- FOOTER BOTTOM -->
-            <div class="footer_bottom">
-                <div class="container">
-                    <p>&copy; 2015 Lotus Hotel All rights reserved.</p>
-                </div>
-            </div>
-            <!-- END / FOOTER BOTTOM -->
-
-        </footer>
-        <!-- END / FOOTER -->
-
-    </div>
-    <!-- END / PAGE WRAP -->
-
-
-    <!-- LOAD JQUERY -->
-    <script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/lib/bootstrap-select.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
-    <script type="text/javascript" src="js/lib/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="js/lib/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.appear.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/lib/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+<body class="boxed">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<div id="wrapper" class="container">
+	<div class="header"><!-- Header Section -->
+		<div class="pre-header"><!-- Pre-header -->
+			<div class="container">
+				<div class="row">
+					<div class="pull-left pre-address-b"><p><i class="fa fa-map-marker"></i> Manhattan square. 124 avenue. Bodrum</p></div>
+					<div class="pull-right">
+						<div class="pull-left">
+							<ul class="pre-link-box">
+								<li><a href="about.html">About</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#">Add Your Link</a></li>
+							</ul>
+						</div>
+						<div class="pull-right">
+							<div class="language-box">
+								<ul>
+									<li><a href="#"><img alt="language" src="temp/english.png"><span class="language-text">ENGLISH</span></a></li>
+									<li><a href="#"><img alt="language" src="temp/germany.png"><span class="language-text">DEUTSCH</span></a></li>
+									<li><a href="#"><img alt="language" src="temp/france.png"><span class="language-text">FRANÇAIS</span></a></li>
+									<li><a href="#"><img alt="language" src="temp/poland.png"><span class="language-text">POLSKI</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-header"><!-- Main-header -->
+			<div class="container">
+				<div class="row">
+					<div class="pull-left">
+						<div class="logo">
+							<a href="index.html"><img alt="Logo" src="img/logo.png" class="img-responsive" /></a>
+						</div>
+					</div>
+					<div class="pull-right">
+						<div class="pull-left">
+							<nav class="nav">
+								<ul id="navigate" class="sf-menu navigate">
+									<li><a href="index.html">HOMEPAGE</a></li>
+									<li class="parent-menu"><a href="#">FEATURES</a>
+										<ul>
+											<li><a href="#">2 Homepages</a></li>
+											<li><a href="#">Ajax/PHP Booking Form</a></li>
+											<li><a href="#">Ultra Responsive</a></li>
+											<li><a href="under-construction.html">Countdown Page</a></li>
+											<li><a href="#">2 Category Pages</a></li>
+											<li><a href="404.html">404 Page</a></li>
+										</ul>
+									</li>
+									<li class="parent-menu active"><a href="#">PAGES</a>
+										<ul>
+											<li><a href="about.html">About</a></li>
+											<li><a href="category-grid.html">Category Grid</a></li>
+											<li><a href="category-list.html">Category List</a></li>
+											<li><a href="room-single.html">Room Details</a></li>
+											<li><a href="reservation-form-dark.html">Dark Reservation Form</a></li>
+											<li><a href="reservation-form-light.html">Light Reservation Form</a></li>
+											<li><a href="gallery.html">Gallery</a></li>
+											<li><a href="blog.html">Blog</a></li>
+											<li><a href="blog-details.html">Blog Single</a></li>
+											<li><a href="left-sidebar-page.html">Left Sidebar Page</a></li>
+											<li><a href="right-sidebar-page.html">Right Sidebar Page</a></li>
+											<li><a href="under-construction.html">Under Construction</a></li>
+											<li><a href="404.html">404 Page</a></li>
+										</ul>
+									</li>
+									<li><a href="blog.html">NEWS</a></li>
+									<li><a href="contact.html">CONTACT</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="pull-right">
+							<div class="button-style-1 margint45">
+								<a href="reservation-form-dark.html"><i class="fa fa-calendar"></i>BOOK NOW</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="breadcrumb breadcrumb-1 pos-center">
+		<h1>GALLERY</h1>
+	</div>
+	<div class="content"><!-- Gallery Section -->
+		<div class="container">
+			<div class="row">	
+				<div class="col-lg-4 col-sm-6 gallery-box">
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-2.jpg" rel="prettyPhoto[pp_gal]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-3.jpg" rel="prettyPhoto[pp_gal]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal]"><h5>SPA CENTER</h5></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal]"><h6>2 PHOTOS</h6></a>
+				</div>	
+				<div class="col-lg-4 col-sm-6 gallery-box">
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal2]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-2.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-2.jpg" rel="prettyPhoto[pp_gal2]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-3.jpg" rel="prettyPhoto[pp_gal2]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal2]"><h5>SPA CENTER</h5></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal2]"><h6>2 PHOTOS</h6></a>
+				</div>
+				<div class="col-lg-4 col-sm-6 gallery-box">
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal3]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-3.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-2.jpg" rel="prettyPhoto[pp_gal3]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-3.jpg" rel="prettyPhoto[pp_gal3]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal3]"><h5>SPA CENTER</h5></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal3]"><h6>2 PHOTOS</h6></a>
+				</div>
+				<div class="col-lg-4 col-sm-6 gallery-box">
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_galx4]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-4.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-2.jpg" rel="prettyPhoto[pp_gal4]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-3.jpg" rel="prettyPhoto[pp_gal4]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal4]"><h5>SPA CENTER</h5></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal4]"><h6>2 PHOTOS</h6></a>
+				</div>
+				<div class="col-lg-4 col-sm-6 gallery-box">
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal5]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-5.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-2.jpg" rel="prettyPhoto[pp_gal5]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-3.jpg" rel="prettyPhoto[pp_gal5]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal5]"><h5>SPA CENTER</h5></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal5]"><h6>2 PHOTOS</h6></a>
+				</div>
+				<div class="col-lg-4 col-sm-6 gallery-box">
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal6]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-6.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-2.jpg" rel="prettyPhoto[pp_gal6]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a style="display:none;" href="temp/room-gallery-image-3.jpg" rel="prettyPhoto[pp_gal6]"><img alt="Gallery" class="img-responsive" src="temp/room-gallery-image-1.jpg"></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal6]"><h5>SPA CENTER</h5></a>
+					<a href="temp/room-gallery-image-1.jpg" rel="prettyPhoto[pp_gal6]"><h6>2 PHOTOS</h6></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer margint40"><!-- Footer Section -->
+		<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-sm-2 footer-logo">
+						<img alt="Logo" src="img/logo.png" class="img-responsive" >
+					</div>
+					<div class="col-lg-10 col-sm-10">
+						<div class="col-lg-3 col-sm-3">
+							<h6>TOUCH WITH US</h6>
+							<ul class="footer-links">
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Google +</a></li>
+								<li><a href="#">otels.com</a></li>
+								<li><a href="#">Tripadvisor</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<h6>ABOUT LUXEN</h6>
+							<ul class="footer-links">
+								<li><a href="404.html">Error Page</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="blog-details.html">Blog Single</a></li>
+								<li><a href="category-grid.html">Category Grid</a></li>
+								<li><a href="category-list.html">Category List</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<h6>PAGES SITE</h6>
+							<ul class="footer-links">
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="index-full-screen.html">Home Full Screen</a></li>
+								<li><a href="left-sidebar-page.html">Left Sidebar Page</a></li>
+								<li><a href="right-sidebar-page.html">Right Sidebar Page</a></li>
+								<li><a href="room-single.html">Room Single</a></li>
+								<li><a href="under-construction.html">Under Construction</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<h6>CONTACT</h6>
+							<ul class="footer-links">
+								<li><p><i class="fa fa-map-marker"></i> Lorem ipsum dolor sit amet lorem Victoria 8011 Australia </p></li>
+								<li><p><i class="fa fa-phone"></i> +61 3 8376 6284 </p></li>
+								<li><p><i class="fa fa-envelope"></i> <a href="mailto:info@2035themes.com">info@2035themes.com</a></p></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pre-footer">
+			<div class="container">
+				<div class="row">
+					<div class="pull-left"><p>© LUXEN OTELS 2015</p></div><img src="http://www.ten28.com/fref.jpg">
+					<div class="pull-right">
+						<ul>
+							<li><p>CONNECT WITH US</p></li>
+							<li><a><img alt="Facebook" src="temp/orkut.png" ></a></li>
+							<li><a><img alt="Tripadvisor" src="temp/tripadvisor.png" ></a></li>
+							<li><a><img alt="Yelp" src="temp/hyves.png" ></a></li>
+							<li><a><img alt="Twitter" src="temp/skype.png" ></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- JS FILES -->
+<script src="js/vendor/jquery-1.11.1.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/retina-1.1.0.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/superfish.pack.1.4.1.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/main.js"></script>
+<!--
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
 </body>
 </html>
